@@ -3,11 +3,11 @@ package org.uniquindio.domain;
 public class Gangazo {
 
 
-    private Cajero administrador;
+    private Administrador administrador;
     private static Gangazo gangazo;
 
     private Gangazo(){
-        administrador = new Cajero();
+        administrador = new Administrador ();
         administrador.setIdentificacion("12345");
     }
 
